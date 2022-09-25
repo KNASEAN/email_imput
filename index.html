@@ -104,11 +104,9 @@
         $(function () {
             $('form').submit(function () {
                 const name    = $('#name').val();
-                const dept = $('#dept').val();
-                const loc  = $('#loc').val();
-                const kind  =$('input[name="kind"]:checked').val();
-                const desc = $('#desc').val();
-                const msg = `"appname":"good_notgood",\n"name":"${name}",\n"dept":"${dept}",\n"loc":"${loc}",\n"kind":"${kind}",\n"desc":"${desc}"`;
+                const email = $('#email').val();
+
+                const msg = `"appname":"emial_imput",\n"name":"${name}",\n"email":"${email}"`;
                 sendText(msg);
                 return false;
             });
