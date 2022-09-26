@@ -1,0 +1,7 @@
+
+module.exports = {
+  //Liff Information
+  myliff: {
+    id    : '1657309677-jgBqQoM4',
+  }
+};
